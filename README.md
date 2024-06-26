@@ -15,7 +15,7 @@ This is a docker template for single page react web apps. This is a completely b
 * HOST_NAME=**[project's production domain]**
 * HOST_CONTAINER_NAME=**[git repo name]**
 * HOST_CONTAINER_IMAGE=httpd:**[git repo name]**
-* HOST_PORT=**[Assign and use a port number at https://docs.google.com/spreadsheets/d/1RFcwWZR5IsFo2s8VSqBy1_VOocNi8Zb8vgyddO7eVIA/edit#gid=1636289497 on the "FRONTEND PORTS" tab ]**
+* HOST_PORT=**[Assign and use a port number used with an Nginx Reverse Proxy ]**
 
 **Edit the .env.react.development file and update the variables to suit your project.**
 
