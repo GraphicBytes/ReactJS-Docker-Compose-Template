@@ -1,0 +1,40 @@
+{
+  "name": "react-docker-template",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.26.1",
+    "env-cmd": "^10.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.50.0"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.react.development node scripts/start.js",
+    "build": "env-cmd -f .env.react.production node scripts/build.js",
+    "build-development": "env-cmd -f .env.react.development node scripts/build.js",
+    "build-staging": "env-cmd -f .env.react.staging node scripts/build.js",
+    "build-production": "env-cmd -f .env.react.production node scripts/build.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
